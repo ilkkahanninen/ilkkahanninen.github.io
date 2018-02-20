@@ -1,9 +1,11 @@
 {
   "name": "cv",
   "version": "0.1.0",
+  "homepage": "https://ilkkahanninen.github.io",
   "private": true,
   "dependencies": {
     "dwindler": "^0.3.2",
+    "gh-pages": "^1.1.0",
     "prop-types": "^15.6.0",
     "ramda": "^0.25.0",
     "react": "^16.2.0",
@@ -17,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "eslint-config-prettier": "^2.9.0",
