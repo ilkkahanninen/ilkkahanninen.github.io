@@ -11,6 +11,7 @@ const styles = {
     marginBottom: 32,
     backgroundImage: `url(${profileImg})`,
     backgroundSize: 'cover',
+    backgroundPosition: 'center center',
 
     [desktop]: {
       position: 'fixed',

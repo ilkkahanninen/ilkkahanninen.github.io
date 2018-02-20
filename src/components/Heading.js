@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import injectSheet from 'react-jss';
 import PropTypes from 'prop-types';
-import { tablet, desktop, print } from '../utils/mediaQuery';
+import { desktop, print } from '../utils/mediaQuery';
 
 const styles = {
   heading: {
@@ -10,11 +10,6 @@ const styles = {
     paddingBottom: 15,
     fontSize: 32,
     fontWeight: 200,
-    textAlign: 'center',
-
-    [tablet]: {
-      textAlign: 'left',
-    },
 
     [desktop]: {
       marginTop: 32,
@@ -22,7 +17,6 @@ const styles = {
     },
 
     [print]: {
-      textAlign: 'left',
       color: 'black',
     },
   },

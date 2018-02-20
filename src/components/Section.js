@@ -1,7 +1,7 @@
 import React from 'react';
 import injectSheet from 'react-jss';
 import PropTypes from 'prop-types';
-import { tablet, desktop, print } from '../utils/mediaQuery';
+import { tablet, print } from '../utils/mediaQuery';
 
 const styles = {
   section: {
@@ -13,11 +13,7 @@ const styles = {
     fontWeight: 200,
 
     [tablet]: {
-      width: ({ screenWide }) => (screenWide ? '90%' : '45%'),
-    },
-
-    [desktop]: {
-      width: ({ screenWide }) => (screenWide ? '64%' : '32%'),
+      width: ({ screenWide }) => (screenWide ? '100%' : '50%'),
     },
 
     [print]: {
