@@ -1,0 +1,28 @@
+{
+  "name": "cv",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "dwindler": "^0.3.2",
+    "prop-types": "^15.6.0",
+    "ramda": "^0.25.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-jss": "^8.3.3",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.6.1",
+    "prettier": "^1.10.2"
+  }
+}
